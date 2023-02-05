@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(27, 121, 89);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    color: rgb(66, 26, 26);
+
+}
+h1#principal {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+h2 {
+    color: rgb(9, 53, 39);
+}
+.bas{
+    color:  green;
+    background-color: rgb(59, 77, 56);
+}
+.med{
+    color: yellow;
+    background-color: rgb(59, 77, 56);
+}
+.ava{
+    color: red;
+    background-color: rgb(59, 77, 56);
+}
+.dst {
+background-color: rgb(134, 22, 44);
+
+}

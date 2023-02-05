@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Listas não ordenadas</h1>
+    <p>So, ontem (porque só estou a escrever isso um dia dps da aula. [parece aé revisão]) o tema foi "Listas" nada mais prático do que mostrar ne::</p>
+    <ul>
+    <li>dia
+    <li>mês 
+    </li>poesia
+    </li>ano
+    <li>música
+    </ul>
+    <p>Isso aqui é uma Unordered List, a tag é &lt;ul&gt; <br> E o que temos a seguir são as Ordered Lists &lt;ol&gt; :::</p>
+    <h1>Ordered Lists</h1>
+    <ol type="i">
+        <li>Dia</li>
+        <li>Mês</li>
+        <li>Ano</li>
+        <li>Música</li>
+        <li>Poesia</li>
+    </ol>
+    <p>As &lt;li&gt;... li Stads for "list icon" e pode se escrever com ou sem &lt;/li&gt; <br>Claro que As coisas da lista são escritas de acordo à vontade ou gosto de quem escreve, as OL's servem pra ordenar ou numerar. <br> Podemos mudar o tipo de numeração (Romanos, números e etc também) com a tag &lt;type&gt; <br>Para as não ordeadas podemos pôr no type, coisas como "square". <br>Vê:  </p>
+    <h1>Juntando Listas (Listas mistas)</h1>
+    <p>Linguagens favoritas do Guanabara (Antigas e Novas)</p>
+    <ol>
+        <li>Antigas</li>
+        <ol type="A">
+            <li>Clipper</li>
+            <li>Visual Basic (VB)</li>
+            <li>Fortran</li>
+            <LI>Delphi</LI>
+        </ol>
+        <li>Novas</li>
+        <ol type="A">
+            <li>Pyhon</li>
+            <li>PhP</li>
+            <LI>Kotlin</LI>
+            <li>JavaScript</li>
+        </ol>
+    </ol>
+    <p>Aí, a contagem de intems de cada lista (novas e antigas vai recomeçar), por exemplo nas ANTIGAS vai começar em A e terminar em D. Quando começar a contar as NOVAS, também vai começar do A e terminar em D. <br>Se quiser que continue a contar, devemos escrever "start" na segunda &lt;ol&gt; tag (onde queremos que continue) e escrever o número onde terminou a contagem passada. <br>Se terminou na letra D (4ª letra do abecedário), escrevemos o 5 <br>EX:<br> </p>
+    <p>Linguagens favoritas do Guanabara (Antigas e Novas)</p>
+    <ol>
+        <li>Antigas</li>
+        <ol type="A">
+            <li>Clipper</li>
+            <li>Visual Basic (VB)</li>
+            <li>Fortran</li>
+            <LI>Delphi</LI>
+        </ol>
+        <li>Novas</li>
+        <ol type="A" start="5">
+            <li>Pyhon</li>
+            <li>PhP</li>
+            <LI>Kotlin</LI>
+            <li>JavaScript</li>
+        </ol>
+    </ol>
+    <h2>A tal mistura de OL e UL </h2>
+    <p>Well, é mm só pôr uma com a outra, tipo:: <br></p>
+    <ol>
+        <li>Fav Xbox Games</li>
+        <ul>
+            <li>Forza</li>
+            <li>Gears Of war</li>
+            <li>Minecraft</li>
+        </ul>
+        <li>Fav PS Games</li>
+        <ul>
+            <li>God of War</li>
+            <li>SpiderMan</li>
+            <li>Sly Cooper</li>
+        </ul>
+    </ol>
+    <h2>Lista de definições</h2>
+    <p>Listas de definições servem como dicionários, escrevemos os termos e as suas definições. <br> a tag praslistas de definições é &lt;dl&gt;, utilizamos &lt;dt&gt; para especificar o termo e &lt;dd&gt; para a descrição. <br> EX.: </p>
+    <dl>
+        <dt>HTML</dt>
+    <dd>Linguagem de marcação de texto para a escrita</dd>
+    <dt>CSS</dt>
+    <dd>linguagem de marcação para criação do Design</dd>
+    <dt>JavaScript</dt>
+    <dd>Linguagem de programação para a criação de interatividade pro website</dd>
+    </dl>
+</body>
+</html>

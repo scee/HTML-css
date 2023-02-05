@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 16px;
+background-image: linear-gradient(rgb(177, 207, 177), rgb(81, 238, 81)2, 110, 12);
+/*
+medidas estão divididas em duas partes:
+medidas absolutas: cm (centímetro), m(metro), in(polegadas), px (pixel), ponto (ponto), (pc)paica?
+
+16px ~=~ 1em.
+32px ~=~ 2em
+
+medidas relativas: em (altura relativa à letra m maiúscula), ex (altura relativa À letra x), rem (), vw(view width-- que é a largura da view port), vh (altura da view port)
+*/
+        }
+        h1, h2 {
+    
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 1in;
+            font-weight:500;
+            /*
+            tipos de peso: lighter, normal, bold, bolder
+            
+            */
+            text-decoration: dashed;
+            /* pra deixar o texto sublinhado*/
+            /*fórmula pra short-hand:
+                font: font-style ; font-weight; fon-size; font-family; */
+        }
+        p {
+            font: italic bolder 1em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <H1>TRABALHANDO COM FONTES</H1>
+    <p>Podemos procurar safe combinatios (se estivesses a prestar atenção à aula saberias o que é) no google just by typing "CSS Web safe combinations" <br> </p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum placeat pariatur ratione, rerum assumenda inventore, facilis voluptatum, blanditiis similique natus maiores! In aspernatur porro architecto provident illo, ducimus incidunt et. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis error qui temporibus alias totam corporis fuga, soluta sunt? Aliquam, unde porro consequatur explicabo deserunt pariatur ea architecto voluptates repudiandae impedit!</p>
+  </p>
+    <h2>Um subtítulo</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat ea repudiandae exercitationem eius, culpa mollitia aspernatur dolor natus sapiente. Nisi dignissimos est quibusdam fugit. Aut ut accusamus quis inventore magnam! <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem facere tempore nisi eveniet, beatae officia nobis commodi deleniti sunt excepturi error iusto rerum ab aperiam itaque maiores recusandae? Amet, necessitatibus.</p>
+</body>
+</html>

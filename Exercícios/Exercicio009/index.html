@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formaações</h1>
+    <h2>Código fonte: / Pré-formatado</h2>
+    <P>O comando ** <code>document.getElementbyId('teste')</code> ** é escrito em linguagem JavaScript. Utilizamos a tag &lt;code&gt; porque a sua fonte é mono-espaçada, ou seja, o espaçamento entre as letras e tals é o mesmo.</P>
+
+<code>
+    num= int(input("Digite um número"))
+    if num % 2:
+        print(f'O {} é par'.format(num))
+    else:
+        print(f('O {} não é par').format(num))
+    print('Fim do programa')
+</code>
+    <p>Nota aqui que o texto vai aparecer no site, mas sem identação. Não vem organizado como um código (seja o pycharm, seja aqui.. doesn't matter). Ele vem como se fosse u parágrafo para que se pareça com um código, podemos utilizar a tag &lt;pre&gt; <br> OLha aqui: <br></p>
+    <pre>
+        <code>
+        num= int(input("Digite um número"))
+        if num % 2:
+            print(f'O {} é par'.format(num))
+        else:
+            print(f('O {} não é par').format(num))
+        print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <h3>Cotações simples</h3>
+    <p>Como diria o pai de um amigo,  O computador é um burro muito rápido. Isso é uma citação etão devia ter aquelas aspas- Poderia ser eu a adicioná-las, mas tem uma tag que faz isso (e que é mais aconselhável), que é a tag &lt;q&gt; <br> Utilizando a tag:: <q>O computador é um burro muito rápido</q></p>
+    <h3>Citações complexas</h3>
+    <p>O texto acima é uma simples, é só uma frase, nada DE MAIS. <br>Mas e se quisessemos citar um bloco (como por exemplo um parágrafo ou com quebras de linha)? well... vou dropar parágrafos de lorem pra exemplificar: <br> Já dizia Richard Lorem em  <cite>BiggerLorem</cite> : <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam libero quam culpa atque ex repellat dolorem. Corrupti provident, quas consectetur ipsa commodi quos quo officia molestiae illo eveniet ea dolor! <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, dignissimos odit aspernatur veritatis quisquam labore earum laudantium dolorem nihil quidem. Repudiandae ut sed iste est fuga laborum quae eveniet voluptates!</blockquote> Usamos as tags &lt;blockquote&gt; e ya. </p>
+    <h2>Abreviações</h2>
+    <p>So, aqui, nós escrevemos "html" e "css" mas talvez a pessoa que vai ler não sabe que são abreviações. Ent utilizamos a tag &lt;abbr&gt; e demos o significado das siglas (what it stands for). <br>
+        I am studying <abbr title="Hypertext Markup Language">HTML</abbr> & <abbr title="Cascading style sheets">CSS</abbr></p>
+    <h2>Texto invertido (a joke, ofc)</h2>
+    <p>So basically, isso vai pôr tudo ao contrário. por EX:. <br> <bdo dir="rtl">Eu gosto de farinha</bdo>
+<br><bdo dir="ltr">Gosto de açucar tb.</bdo> <br> As tag é &lt;bdo&gt; e aí na direcção escolhes entre "rtl" (Right to left) ou "ltr" (Left to right) <br>Fim da aula.</p>
+    <p></p>
+</body>
+</html>

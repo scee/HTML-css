@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em dispositivos diferetes ou simplesmente aumente o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imgs/P.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imgs/M.png" type="image/png">
+        <img src="imgs/G.png" alt="Imagem flexível">
+    </picture>
+    <h1>Áudio no site</h1>
+    <p>Parâmetro controls para ue.. controlar ne, o volume e tals e autoplay c sabe pra que serve. <br>Let's test it out.
+    </p>
+    <audio src="imgs/ADZ1.mp3" controls autoplay loop></audio>
+    <p>Ou..</p>
+    <audio controls autoplay loop>
+        <source src="imgs/ADZ2.mp3" type="audio/mpeg">
+        <!--Então, aqui podemos carregar vários áudios e aí, o navegador escolhe o que melhor se adequa.
+        por exemplo, podia ficar:
+        <source src="imgs/ADZ2.mp3" type="audio/mpeg">
+        <source src="imgs/ADZ2.ogg" type="audio/ogg">
+        <source src="imgs/ADZ2.wav" type="audio/wav">
+        E aqui o navegador ia escolher um
+-->>
+    </audio>
+    <h1>Agora, Vídeos no site</h1>
+    <video src="imgs/smvid1.mp4" width="560" height="250" controls autoplay loop></video>
+    <h2>Vídeos hospedados localmente</h2>
+    <p>Este vídeo está sendo hospedado no meu próprio server</p>
+    <video controls autoplay loop width="560" >
+        <source src="imgs/midvid1.mp4" type="video/mp4">
+        <source src="imgs/Midvid1.webm" type="video/webm">
+        <!-- Igual ao áudio, aqui vamos disponibilzar vários formatos e deixar à mercê do navegador. posso adicionar também, dentro da tag video, um parágrafo a dizer que o navegador não tem compatibilidade
+        Se não tiver mesmo, vai apresentar esse parágrafo. Ex::-->>
+        <p>O seu navegador não é compatível com o vídeo hospedado em nossos servidores</p>
+    </video>
+    <h1>Vídeos externos</h1>
+    <p>Aqui temos um vídeo q1ue foi tirado do youtube, por exemplo.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <a href="p3.html">Desafio</a>
+</body>
+</html>

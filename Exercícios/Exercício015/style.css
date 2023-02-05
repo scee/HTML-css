@@ -1,0 +1,19 @@
+@charset "UTF-8";
+body {
+            
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    background-color: rgb(24, 87, 66);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    font-size: small;
+    background-color: rgb(67, 117, 17);
+    font-style: oblique;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover ne.</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        div:hover > p {
+            display:block;
+            color: white;
+            background-color: red;
+        }
+        div:hover{
+            background-color: brown;
+        }
+        div > p {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <p>Aqui temos um exemplo do uso do Hover <br>Passe o mouse sobre o texto abaixo. </p>
+    <div>
+        Aqui mm.
+        <p>Texto escondido.....</p>
+    </div>
+    <p>Fim do exemplo</p>
+    <p>Escrever " div > p " quer dizer que vai operar o PARÁGRAFO que está DENTRO da DIV. É só seguir essa lógica.</p>
+</body>
+</html>
