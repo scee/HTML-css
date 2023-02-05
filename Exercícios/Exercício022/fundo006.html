@@ -4,20 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Destino perguntou</title>
+    <title>Fundo fixo de tela</title>
     <style>
-        body{
-            background-color: black;
-            background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
-            background-repeat: no-repeat;
+        header{
+            background: rgb(0, 0, 0);
+            background-image: url(imagens/pattern004.png);
+            background-position: center center;
+            background-repeat: no-repeat; 
             background-size: cover;
+            background-attachment: fixed;
+            text-align: center;
+            color: white;
+            border: 10px solid black;
+            border-radius: 15px;
+           padding: 10px;
+           font-weight: bolder;
+           max-width:50vh;
+           margin: auto;
+        }
+        body{
             height: 100vh;
+             background:black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
+            
+        
+            /*
+            Shorthand pro background 
+            background: color image position repeat attachments;
+            ou seja: background:black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+        Deixamos o size de fora porque dentro n dá;*/
            
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,10 +47,15 @@
     
     </style>
 </head>
+<header>
+<p>Testing</p>
+</header>
 <body>
     <main>
         <h1>Isso está próximo de um site de verdade</h1>
         <h2>Teste de imagem de fundo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, nam ut distinctio odio deleniti est assumenda at delectus quisquam a molestiae aliquam ipsam itaque quidem tempore, blanditiis et eius asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eius, esse voluptas inventore illum praesentium necessitatibus magnam totam officiis minima ex, consequuntur modi, aut voluptates eligendi nobis veritatis iure molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quis tempora impedit maxime culpa ratione, quia dolor placeat recusandae a nulla doloremque adipisci asperiores id excepturi voluptates delectus. Fugiat, debitis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita laborum quasi consequuntur velit explicabo perferendis voluptatibus ut tempora hic sunt, rem inventore a cumque consectetur amet quod vero porro fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ullam ipsum eius optio minus incidunt, sunt earum nobis, cum reprehenderit repellat laudantium a unde, totam inventore esse impedit odio vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque assumenda molestias reiciendis nemo! Perferendis, sunt voluptatibus! Ex hic unde in libero soluta dolorum iure quos perspiciatis est, consequuntur incidunt Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum provident officia omnis possimus, obcaecati incidunt. Vel voluptate, enim nobis in sint sed incidunt. A officia molestiae molestias nemo, commodi recusandae!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis sit in numquam ipsum adipisci asperiores ex fugiat animi, cumque voluptas molestias alias laboriosam minima veniam commodi delectus reiciendis sed nam.
+        </p>
     </main>
 </body>
 </html>
