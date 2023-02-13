@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YA</title>
+    <style>
+    
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+        caption{
+            background-color: rgb(105, 102, 102);
+            padding: 30px;
+            font-weight: bolder;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        thead{
+            background-color: grey;
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1;
+            background-color:grey;
+        }
+        tbody > tr:nth-child(even){
+            background-color: lightcyan;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightskyblue;
+        }
+        tfoot{
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <!--Anatomia pra tabelas grandes.-->
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São paulo</td>
+                <td>45K</td>
+            </tr>   
+            <tr><td>Minas gerais</td><td>128K</td></tr>
+            <TR><td>Rio de Janeiro</td><td>264K</td></TR>
+            <TR><td>Bahia</td><td>284K</td></TR>
+            <TR><td>Guaraná</td><td>294K</td></TR>
+            <TR><td>Rio Grande do Sul</td><td>304K</td></TR>
+            <TR><td>Pernambuco</td><td>314K</td></TR>
+            <TR><td>Ceará</td><td>317K</td></TR>
+            <TR><td>Pará</td><td>340K</td></TR>
+            <TR><td>Santa Catarina</td><td>364K</td></TR>
+            <TR><td>Maranhão</td><td>384K</td></TR>
+            <TR><td>Goiás</td><td>400K</td></TR>
+            <TR><td>Amazonas</td><td>450K</td></TR>
+            <TR><td>Espírito Snato</td><td>452K</td></TR>
+            <TR><td>Paraíba</td><td>464K</td></TR>
+            <TR><td>Rio Grande do Norte</td><td>494K</td></TR>
+            <TR><td>Mato Grosso</td><td>502K</td></TR>
+            <TR><td>Alagoas</td><td>504K</td></TR>
+            <TR><td>Piauí</td><td>524K</td></TR>
+            <TR><td>Distrito Federal</td><td>563K</td></TR>
+            <TR><td>Mato Grosso do Sul</td><td>564K</td></TR>
+            <TR><td>Sergipe</td><td>600K</td></TR>
+            <TR><td>RONDÔNIA</td><td>604K</td></TR>
+            <TR><td>Tocatins</td><td>648K</td></TR>
+            <TR><td>Acre</td><td>650K</td></TR>
+            <TR><td>Amapá</td><td>652K</td></TR>
+            <TR><td>Roraima</td><td>668K</td></TR>
+
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <strong>
+                    <td>21.246.700</td>
+                </strong>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
