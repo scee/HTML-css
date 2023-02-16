@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/*Configs Gerais*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+
+}
+h1{
+    color: white;
+    text-shadow: 3px 3px 0px #132397;
+    padding: 10px;
+}

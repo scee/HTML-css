@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Querie</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="mf.css">
+</head>
+<body onresize="mdt()">
+    <header>
+        <h1>My website</h1>
+        <span id="bg" class="material-icons" onclick="clickmenu()">menu</span>
+        <menu id="its">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Posts</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testing Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, repellat. Quis praesentium, porro sapiente nesciunt eaque totam aliquam perferendis quas nostrum voluptas quod consequatur exercitationem! Id veritatis facilis quisquam cumque.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam autem dicta, illo sed voluptate quia possimus quidem fugiat eius asperiores veritatis maxime minima aut delectus itaque a consequatur? Voluptates, deleniti?</p> <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt eveniet explicabo non! Qui rerum, repellat officia reprehenderit maiores voluptate cumque molestias aliquid, itaque rem provident nesciunt optio ipsam alias pariatur.</p>
+        </article>
+    </main>
+    <script>
+        function mdt(){
+            if (window.innerWidth >= 768){
+                its.style.display = 'block'
+            } else {
+                its.style.display = 'none'
+            }
+        }
+        function clickmenu(){
+            if (its.style.display == 'block') {
+                its.style.display = 'none'
+            } else {
+                its.style.display = 'block'
+            }
+        }
+        
+    </script>
+    <!--HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA--->
+</body>
+</html>

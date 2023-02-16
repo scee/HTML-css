@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/*AS OUTRAS
+Typical device breakpoints:
+pequenas telas:  até 600px
+Tlf : 600px a 768px
+tablet: 768px a 992px
+pc: 992px a 1200px
+grandes telas: acima de 1200px
+*/
+@media print {
+    #tlf{
+        display: none;
+    }
+    #tab{
+        display: none;
+    }
+    #pc{
+        display: none;
+    }
+    #pri{
+        display: block;
+    }
+    #tv{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px)and (max-width: 992px){
+    body{
+        background-image: url(../img/back-tablet.jpg);
+    }
+    #tlf{
+        display: none;
+    }
+    #tab{
+        display: block;
+    }
+    #pc{
+        display: none;
+    }
+    #pri{
+        display: none;
+    }
+    #tv{
+        display: none;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body{
+        background-image: url(../img/back-pc.jpg);
+        
+    }
+    #tlf {
+        display: none;
+    }
+    #tab{
+        display: none;
+    }
+    #pc{
+        display: block;
+    }
+    #pri{
+        display: none;
+    }
+    #tv{
+        display: none;
+    }
+}
+@media screen and (min-width: 1200px) {
+    body{
+        background-image: url(../img/back-tv.jpg);
+    }
+    #tlf{
+        display: none;
+    }
+    #tab{
+        display: none;
+    }
+    #pc{
+        display: none;
+    }
+    #pri{
+        display: none;
+    }
+    #tv{
+        display: block;
+    }
+}
